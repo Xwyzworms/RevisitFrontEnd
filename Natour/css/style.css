@@ -1,0 +1,34 @@
+/*
+    COLORS : 
+
+    Light green : #7edf56;
+    Medium Green : #55c57a;
+    Dark Green : #28b485;
+
+*/
+
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+
+}
+
+/* Set Body !*/
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size : 16px;
+    line-height : 1.7;
+    color : #777;
+    padding : 30px;
+}
+
+.header {
+    height:95vh;
+    background-image: linear-gradient(to right bottom,rgba(127, 223, 86, 0.801), rgba(40, 180, 133, 0.808)),url("../imgs/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    clip-path : polygon(0 0 ,100% 0, 100% 75vh, 0% 100%);
+}
